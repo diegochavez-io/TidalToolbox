@@ -15,19 +15,19 @@ This repository provides tools for chopping up audio files into segments based o
 
 ### OctaveSplit.py
 
-The OctaveSplit script chops up an audio file into bar-length segments based on the provided BPM. It then applies a fade in and fade out to each segment and saves the segments as individual files, split into two folders, each representing an octave.
+Based on the provided BPM, the script chops up an audio file into bar-length segments. It then applies a fade in and fade out to each segment and saves the segments as individual files, split into two folders, representing a lower and higher octave numbered 1-12, and 13-24.
 
 To use the script, simply replace the directory path, 'dir_path', with your own directory path where your .wav files are located.
 
 ### BeatSlicer.py
 
-The BeatSlicer script chops up an audio file into bar-length segments based on the provided BPM. It then applies a fade in and fade out to each segment and saves the segments as individual files in one folder.
+Chops up an audio file into bar-length segments based on the provided BPM. It then applies a fade in and fade out to each segment and saves the segments as individual files in one folder.
 
 To use the script, simply replace the directory path, 'dir_path', with your own directory path where your .wav files are located.
 
 ### AudioFades.py
 
-The AudioFades script applies a fade in and fade out to a given audio file to prevent pops or clicks and saves the treated audio in a 'processed' subfolder.
+Applies a fade in and fade out to a given audio file to prevent pops or clicks and saves the treated audio in a 'processed' subfolder.
 
 To use the script, simply replace the directory path, 'dir_path', with your own directory path where your .wav files are located.
 

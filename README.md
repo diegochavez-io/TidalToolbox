@@ -1,6 +1,6 @@
 # TidalToolBox
 
-This repository provides tools for chopping up audio files into segments based on the BPM and applying a fade in and fade out to each segment to prevent pops or clicks. The scripts are designed to be flexible and can be adapted to fit your specific needs.
+This repository provides tools for chopping up audio files into segments based on the BPM and applying a fade in and fade out to each segment to prevent pops or clicks. 
 
 ## Installation
 

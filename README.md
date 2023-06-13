@@ -17,25 +17,17 @@ This repository provides tools for chopping up audio files into segments based o
 
 Based on the provided BPM, the script chops up an audio file into bar-length segments. It then applies a fade in and fade out to each segment and saves the segments as individual files, split into two folders, representing a lower and higher octave numbered 1-12, and 13-24.
 
-To use the script, simply replace the directory path, 'dir_path', with your own directory path where your .wav files are located.
+Replace the directory path, 'dir_path', with your own directory path where your .wav files are located.
 
 ### BeatSlicer.py
 
 Chops up an audio file into bar-length segments based on the provided BPM. It then applies a fade in and fade out to each segment and saves the segments as individual files in one folder.
 
-To use the script, simply replace the directory path, 'dir_path', with your own directory path where your .wav files are located.
+Replace the directory path, 'dir_path', with your own directory path where your .wav files are located.
 
 ### DrumKit.py
 
-Automates the process of generating drum samples from drum kit audio files. 
-
-Segments the audio data into chunks between successive onsets. Each segment corresponds to a drum hit or sample.
-
-Applies a linear fade-in and fade-out effect to each segment. Fade durations can be adjusted.
-
-Saves each processed segment as a separate .wav file in a corresponding subdirectory.
-
-Use DrumKit.py to quickly generate a diverse library of drum samples from your drum kit audio files. It's an ideal tool for musicians, producers, or anyone working with drum samples.
+Automates the process of generating drum samples from drum kit audio files. Segments the audio data into chunks between successive onsets. Each segment corresponds to a drum hit or sample. Applies a linear fade-in and fade-out effect to each segment. Fade durations can be adjusted. Saves each processed segment as a separate .wav file in a corresponding subdirectory.
 
 ### AudioFades.py
 

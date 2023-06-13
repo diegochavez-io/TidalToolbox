@@ -25,6 +25,18 @@ Chops up an audio file into bar-length segments based on the provided BPM. It th
 
 To use the script, simply replace the directory path, 'dir_path', with your own directory path where your .wav files are located.
 
+### DrumKit.py
+
+Automates the process of generating drum samples from drum kit audio files. 
+
+Segments the audio data into chunks between successive onsets. Each segment corresponds to a drum hit or sample.
+
+Applies a linear fade-in and fade-out effect to each segment. Fade durations can be adjusted.
+
+Saves each processed segment as a separate .wav file in a corresponding subdirectory.
+
+Use DrumKit.py to quickly generate a diverse library of drum samples from your drum kit audio files. It's an ideal tool for musicians, producers, or anyone working with drum samples.
+
 ### AudioFades.py
 
 Applies a fade in and fade out to a given audio file to prevent pops or clicks and saves the treated audio in a 'processed' subfolder.
